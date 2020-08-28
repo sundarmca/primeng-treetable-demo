@@ -1,0 +1,22 @@
+p {
+  font-family: Lato;
+}
+
+p-treetable div {
+  background-color:lightgreen !important
+}
+p-treetable td .cell-container {
+  color:blueviolet;
+  /* border:1px solid red; */
+  /* display: flex; */
+  width:100%;
+  /* height:70px; */
+  /* vertical-align: middle; */
+}
+.toggler {
+  /* top:0 !important; */
+  height:10px;
+  /* border:1px solid red; */
+  vertical-align: top;
+}
+
