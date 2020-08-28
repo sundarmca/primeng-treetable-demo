@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { HttpClientModule, HttpClient, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import {VirtualScrollerModule} from 'primeng/virtualscroller'
@@ -18,7 +18,7 @@ import {
   imports:      [ BrowserModule, FormsModule, MultiSelectModule
     , ToolbarModule, ButtonModule, InputTextModule, ToggleButtonModule
     , TreeTableModule, VirtualScrollerModule, TableModule
-    , FlexLayoutModule ],
+    , FlexLayoutModule, HttpClientModule ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
